@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Planner | Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Student Portfolio</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="planner.html">Academic Planner</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container fade-in">
+        <h1 class="page-title">Interactive Academic Planner</h1>
+        
+        <div class="planner-box card">
+            <h2>Manage Tasks & Deadlines</h2>
+            <div class="planner-input-group">
+                <input type="text" id="taskInput" placeholder="Enter academic task (e.g., Study for Math Exam)...">
+                <button id="addTaskBtn" class="btn">Add Task</button>
+            </div>
+            
+            <ul id="taskList" class="task-list">
+                <!-- Programmatically populated by JavaScript arrays -->
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Samuel Osakwe. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
